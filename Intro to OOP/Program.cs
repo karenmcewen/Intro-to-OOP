@@ -30,10 +30,28 @@ namespace Intro_to_OOP
             cat1.Sleep();
 
             Dog dog1 = new Dog();
+            dog1.Bark("medium");
+            dog1.Cuddle();
+            dog1.Run();
+            dog1.Potty();
+
+            Dog dog2 = new Dog();
+            dog1.Bark("small");
+            dog1.Cuddle();
+            dog1.Run();
+            dog1.Potty();
 
 
-
-
+            //create instance for superhero
+            SuperHero goodGuy = new SuperHero("Super Good Guy");
+            goodGuy.FightEvil();
+            goodGuy.FightEvil();
+            goodGuy.FightEvil();
+            goodGuy.FightEvil();
+            goodGuy.FightEvil();
+            goodGuy.FightEvil();
+            
+            goodGuy.NextLevel();
         }
     }
 }
